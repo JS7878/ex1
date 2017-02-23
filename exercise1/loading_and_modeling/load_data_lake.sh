@@ -26,12 +26,18 @@ tail -n +2 "Timely and Effective Care - Hospital.csv" > timely.csv
 #create our hdfs directory
 hdfs dfs -mkdir /user/w205/hospital_compare
 
-#copy the files to hdfs
-hdfs dfs -put geninfo.csv /user/w205/hospital_compare
-hdfs dfs -put hvbp.csv /user/w205/hospital_compare
-hdfs dfs -put measuredates.csv /user/w205/hospital_compare
-hdfs dfs -put readmit.csv /user/w205/hospital_compare
-hdfs dfs -put timely.csv /user/w205/hospital_compare
+#create directory for each file, and copy the files to hdfs
+hdfs dfs -mkdir /user/w205/hospital_compare/hospitals
+hdfs dfs -mkdir /user/w205/hospital_compare/hvbp
+hdfs dfs -mkdir /user/w205/hospital_compare/measuredates
+hdfs dfs -mkdir /user/w205/hospital_compare/readmit
+hdfs dfs -mkdir /user/w205/hospital_compare/timely
+
+hdfs dfs -put geninfo.csv /user/w205/hospital_compare/hospitals
+hdfs dfs -put hvbp.csv /user/w205/hospital_compare/hvbp
+hdfs dfs -put measuredates.csv /user/w205/hospital_compare/measuredates
+hdfs dfs -put readmit.csv /user/w205/hospital_compare/readmit
+hdfs dfs -put timely.csv /user/w205/hospital_compare/timely
 
 #change directory back to original
 cd $MY_DIR
