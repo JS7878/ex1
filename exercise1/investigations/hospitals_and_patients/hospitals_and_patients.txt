@@ -1,0 +1,5 @@
+# Covariance of survey overall performance and hospitals overall rate
+0.45179072348163296
+
+This shows that there is a strong relationship between survey results and
+assessment of overall hospital performance.

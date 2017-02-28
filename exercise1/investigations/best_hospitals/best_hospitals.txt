@@ -1,0 +1,44 @@
+#Timely and Effective Care - Low values
+0       PIONEER MEMORIAL HOSPITAL - CAH                                         
+0	GREENE COUNTY GENERAL HOSPITAL
+0	BEAR LAKE MEMORIAL HOSPITAL
+0	PHOEBE WORTH MEDICAL CENTER
+1	JACKSON PARISH HOSPITAL
+1	IRAAN GENERAL HOSPITAL
+2.5	HOSPITAL UNIVERSITARIO DE ADULTO
+6	ROOKS COUNTY HEALTH CENTER
+13	CALDWELL MEMORIAL HOSPITAL, INC
+15.25	DAYTON GENERAL HOSPITAL
+
+# Timely and Effective Care - High values
+684     HOSPITAL UNIVERSITARIO DR RUIZ ARNAU                                    
+638	HOSPITAL SAN FRANCISCO
+446.3333	HOSPITAL PAVIA SANTURCE
+418	HOSPITAL METROPOLITANO DR TITO MATTEI
+348.6667	HOSPITAL MENONITA DE CAYEY
+322	METROPOLITAN HOSPITAL
+314.25	HOSPITAL DE LA CONCEPCION
+308.6667	HOSPITAL METROPOLITANO DR PILA
+307.6667	HIMA SAN PABLO HUMACAO
+289.3333	HOSPITAL DR CAYETANO COLL Y TOSTE
+
+# Readmittance and Deaths
+4.6     PHYSICIANS MEDICAL CENTER                                               
+4.7	OAKLAND REGIONAL HOSPITAL
+4.9	LAFAYETTE GENERAL SURGICAL HOSPITAL
+6.7	HOAG ORTHOPEDIC INSTITUTE
+7.050000000000001	HOSPITAL FOR SPECIAL SURGERY
+7.699999999999999	ORTHOINDY HOSPITAL
+7.85	ARKANSAS SURGICAL HOSPITAL
+7.8500000000000005	MOUNT CARMEL NEW ALBANY SURGICAL HOSPITAL
+8.2	TEXAS ORTHOPEDIC HOSPITAL
+8.25	KANSAS SURGERY & RECOVERY CENTER
+
+The first result is from timely and effective care where lower scores
+represent a better performance measure. The second set of results is also
+timely and effective care where higher scores represent better performance.
+However, readmittance and deaths contain many more responses, much closer to
+the total number of 4807 hospitals. For overall procedural assessment,
+readmittance and deaths data is much more complete, and the results with the
+lowest numbers should be considered the best hospitals for getting a
+procedure.

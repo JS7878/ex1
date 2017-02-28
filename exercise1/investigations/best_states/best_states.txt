@@ -1,0 +1,15 @@
+#Best states based on overall rating
+3.857142857142857       SD                                                      
+3.6666666666666665	DE
+3.611111111111111	WI
+3.5316455696202533	MN
+3.526315789473684	ID
+3.4814814814814814	IN
+3.48	NH
+3.450980392156863	CO
+3.4482758620689653	UT
+3.4375	ME
+
+What is interesting about the best states based on overall rating of hospitals
+is that none of the top 10 have high populations. This may be indicative of
+lower visitation and higher doctor to patient ratios.
